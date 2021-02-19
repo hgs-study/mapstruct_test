@@ -25,11 +25,6 @@ ext {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-//    compile 'org.mapstruct:mapstruct-jdk8:1.4.1.Final'
-//    compile 'org.mapstruct:mapstruct:1.4.1.Final'
-//    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.1.Final'
-//    compileOnly 'org.projectlombok:lombok'
-//    annotationProcessor 'org.projectlombok:lombok'
     implementation "org.mapstruct:mapstruct:${mapstructVersion}"
     annotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
     annotationProcessor "org.projectlombok:lombok:${lombokVersion}"

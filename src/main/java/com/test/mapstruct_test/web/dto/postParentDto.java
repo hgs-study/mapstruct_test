@@ -1,19 +1,16 @@
 package com.test.mapstruct_test.web.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import java.time.OffsetDateTime;
 
-
-
-@Builder
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class postDto {
-
+public class postParentDto {
     private String writer;
     private String content;
-
 }
